@@ -1,0 +1,265 @@
+** Installing R Package Dependencies for R Markdown: 'knitr', 'rmarkdown'
+
+
+
+[1/4] Installing xfun...
+
+Installing package into '\\jumbo/userdoc/bud07888/R/win-library/4.1'
+(as 'lib' is unspecified)
+
+  There is a binary version available but the source version is later:
+     binary source needs_compilation
+xfun   0.39   0.49              TRUE
+
+  Binaries will be installed
+trying URL 'https://cran.rstudio.com/bin/windows/contrib/4.1/xfun_0.39.zip'
+Content type 'application/zip' length 443764 bytes (433 KB)
+==================================================
+downloaded 433 KB
+
+package 'xfun' successfully unpacked and MD5 sums checked
+
+The downloaded binary packages are in
+	C:\Users\bud07888\AppData\Local\Temp\Rtmp8owys2\downloaded_packages
+
+
+[2/4] Installing knitr...
+
+Installing package into '\\jumbo/userdoc/bud07888/R/win-library/4.1'
+(as 'lib' is unspecified)
+also installing the dependency 'xfun'
+
+
+  There are binary versions available but the source versions are later:
+      binary source needs_compilation
+xfun    0.39   0.49              TRUE
+knitr   1.42   1.49             FALSE
+
+  Binaries will be installed
+trying URL 'https://cran.rstudio.com/bin/windows/contrib/4.1/xfun_0.39.zip'
+Content type 'application/zip' length 443764 bytes (433 KB)
+==================================================
+downloaded 433 KB
+
+package 'xfun' successfully unpacked and MD5 sums checked
+
+The downloaded binary packages are in
+	C:\Users\bud07888\AppData\Local\Temp\Rtmp8owys2\downloaded_packages
+installing the source package 'knitr'
+
+trying URL 'https://cran.rstudio.com/src/contrib/knitr_1.49.tar.gz'
+Content type 'application/x-gzip' length 545754 bytes (532 KB)
+==================================================
+downloaded 532 KB
+
+'\\jumbo\userdoc\bud07888'
+CMD.EXE was started with the above path as the current directory.
+UNC paths are not supported.  Defaulting to Windows directory.
+* installing *source* package 'knitr' ...
+** package 'knitr' successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** demo
+** inst
+** byte-compile and prepare package for lazy loading
+Error in loadNamespace(j <- i[[1L]], c(lib.loc, .libPaths()), versionCheck = vI[[j]]) : 
+  namespace 'xfun' 0.39 is being loaded, but >= 0.48 is required
+Calls: <Anonymous> ... namespaceImportFrom -> asNamespace -> loadNamespace
+Execution halted
+ERROR: lazy loading failed for package 'knitr'
+* removing '\\jumbo/userdoc/bud07888/R/win-library/4.1/knitr'
+
+
+[3/4] Installing bslib...
+
+
+The downloaded source packages are in
+	'C:\Users\bud07888\AppData\Local\Temp\Rtmp8owys2\downloaded_packages'
+Installing package into '\\jumbo/userdoc/bud07888/R/win-library/4.1'
+(as 'lib' is unspecified)
+also installing the dependencies 'htmltools', 'sass'
+
+
+  There are binary versions available but the source versions are later:
+          binary  source needs_compilation
+htmltools  0.5.5 0.5.8.1              TRUE
+sass       0.4.5   0.4.9              TRUE
+bslib      0.4.2   0.8.0             FALSE
+
+  Binaries will be installed
+trying URL 'https://cran.rstudio.com/bin/windows/contrib/4.1/htmltools_0.5.5.zip'
+Content type 'application/zip' length 361526 bytes (353 KB)
+==================================================
+downloaded 353 KB
+
+trying URL 'https://cran.rstudio.com/bin/windows/contrib/4.1/sass_0.4.5.zip'
+Content type 'application/zip' length 3642600 bytes (3.5 MB)
+==================================================
+downloaded 3.5 MB
+
+package 'htmltools' successfully unpacked and MD5 sums checked
+package 'sass' successfully unpacked and MD5 sums checked
+
+The downloaded binary packages are in
+	C:\Users\bud07888\AppData\Local\Temp\Rtmp8owys2\downloaded_packages
+installing the source package 'bslib'
+
+trying URL 'https://cran.rstudio.com/src/contrib/bslib_0.8.0.tar.gz'
+Content type 'application/x-gzip' length 5136884 bytes (4.9 MB)
+==================================================
+downloaded 4.9 MB
+
+'\\jumbo\userdoc\bud07888'
+CMD.EXE was started with the above path as the current directory.
+UNC paths are not supported.  Defaulting to Windows directory.
+* installing *source* package 'bslib' ...
+** package 'bslib' successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+Error in loadNamespace(i, c(lib.loc, .libPaths()), versionCheck = vI[[i]]) : 
+  namespace 'htmltools' 0.5.5 is being loaded, but >= 0.5.8 is required
+Calls: <Anonymous> ... withCallingHandlers -> loadNamespace -> namespaceImport -> loadNamespace
+Execution halted
+ERROR: lazy loading failed for package 'bslib'
+* removing '\\jumbo/userdoc/bud07888/R/win-library/4.1/bslib'
+
+
+[4/4] Installing rmarkdown...
+
+
+The downloaded source packages are in
+	'C:\Users\bud07888\AppData\Local\Temp\Rtmp8owys2\downloaded_packages'
+Installing package into '\\jumbo/userdoc/bud07888/R/win-library/4.1'
+(as 'lib' is unspecified)
+also installing the dependencies 'htmltools', 'sass', 'xfun', 'bslib', 'knitr'
+
+trying URL 'https://cran.rstudio.com/src/contrib/htmltools_0.5.8.1.tar.gz'
+Content type 'application/x-gzip' length 135134 bytes (131 KB)
+==================================================
+downloaded 131 KB
+
+trying URL 'https://cran.rstudio.com/src/contrib/sass_0.4.9.tar.gz'
+Content type 'application/x-gzip' length 3025086 bytes (2.9 MB)
+==================================================
+downloaded 2.9 MB
+
+trying URL 'https://cran.rstudio.com/src/contrib/xfun_0.49.tar.gz'
+Content type 'application/x-gzip' length 166426 bytes (162 KB)
+==================================================
+downloaded 162 KB
+
+trying URL 'https://cran.rstudio.com/src/contrib/bslib_0.8.0.tar.gz'
+Content type 'application/x-gzip' length 5136884 bytes (4.9 MB)
+==================================================
+downloaded 4.9 MB
+
+trying URL 'https://cran.rstudio.com/src/contrib/knitr_1.49.tar.gz'
+Content type 'application/x-gzip' length 545754 bytes (532 KB)
+==================================================
+downloaded 532 KB
+
+trying URL 'https://cran.rstudio.com/src/contrib/rmarkdown_2.29.tar.gz'
+Content type 'application/x-gzip' length 2194660 bytes (2.1 MB)
+==================================================
+downloaded 2.1 MB
+
+'\\jumbo\userdoc\bud07888'
+CMD.EXE was started with the above path as the current directory.
+UNC paths are not supported.  Defaulting to Windows directory.
+* installing *source* package 'htmltools' ...
+** package 'htmltools' successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+
+*** arch - i386
+Warning in system(cmd) : 'make' not found
+ERROR: compilation failed for package 'htmltools'
+* removing '\\jumbo/userdoc/bud07888/R/win-library/4.1/htmltools'
+* restoring previous '\\jumbo/userdoc/bud07888/R/win-library/4.1/htmltools'
+'\\jumbo\userdoc\bud07888'
+CMD.EXE was started with the above path as the current directory.
+UNC paths are not supported.  Defaulting to Windows directory.
+* installing *source* package 'xfun' ...
+** package 'xfun' successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+
+*** arch - i386
+Warning in system(cmd) : 'make' not found
+ERROR: compilation failed for package 'xfun'
+* removing '\\jumbo/userdoc/bud07888/R/win-library/4.1/xfun'
+* restoring previous '\\jumbo/userdoc/bud07888/R/win-library/4.1/xfun'
+'\\jumbo\userdoc\bud07888'
+CMD.EXE was started with the above path as the current directory.
+UNC paths are not supported.  Defaulting to Windows directory.
+* installing *source* package 'sass' ...
+** package 'sass' successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+
+*** arch - i386
+Warning in system(cmd) : 'make' not found
+ERROR: compilation failed for package 'sass'
+* removing '\\jumbo/userdoc/bud07888/R/win-library/4.1/sass'
+* restoring previous '\\jumbo/userdoc/bud07888/R/win-library/4.1/sass'
+'\\jumbo\userdoc\bud07888'
+CMD.EXE was started with the above path as the current directory.
+UNC paths are not supported.  Defaulting to Windows directory.
+* installing *source* package 'knitr' ...
+** package 'knitr' successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** demo
+** inst
+** byte-compile and prepare package for lazy loading
+Error in loadNamespace(j <- i[[1L]], c(lib.loc, .libPaths()), versionCheck = vI[[j]]) : 
+  namespace 'xfun' 0.39 is being loaded, but >= 0.48 is required
+Calls: <Anonymous> ... namespaceImportFrom -> asNamespace -> loadNamespace
+Execution halted
+ERROR: lazy loading failed for package 'knitr'
+* removing '\\jumbo/userdoc/bud07888/R/win-library/4.1/knitr'
+'\\jumbo\userdoc\bud07888'
+CMD.EXE was started with the above path as the current directory.
+UNC paths are not supported.  Defaulting to Windows directory.
+* installing *source* package 'bslib' ...
+** package 'bslib' successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+Error in loadNamespace(i, c(lib.loc, .libPaths()), versionCheck = vI[[i]]) : 
+  namespace 'htmltools' 0.5.5 is being loaded, but >= 0.5.8 is required
+Calls: <Anonymous> ... withCallingHandlers -> loadNamespace -> namespaceImport -> loadNamespace
+Execution halted
+ERROR: lazy loading failed for package 'bslib'
+* removing '\\jumbo/userdoc/bud07888/R/win-library/4.1/bslib'
+'\\jumbo\userdoc\bud07888'
+CMD.EXE was started with the above path as the current directory.
+UNC paths are not supported.  Defaulting to Windows directory.
+ERROR: dependencies 'bslib', 'knitr' are not available for package 'rmarkdown'
+* removing '\\jumbo/userdoc/bud07888/R/win-library/4.1/rmarkdown'
+
+The downloaded source packages are in
+	'C:\Users\bud07888\AppData\Local\Temp\Rtmp8owys2\downloaded_packages'
+
+
+<U+2714> Packages successfully installed.
+Warning messages:
+1: In utils::install.packages("knitr", repos = "https://cran.rstudio.com/") :
+  installation of package 'knitr' had non-zero exit status
+2: In utils::install.packages("bslib", repos = "https://cran.rstudio.com/") :
+  installation of package 'bslib' had non-zero exit status
+3: In utils::install.packages("rmarkdown", repos = "https://cran.rstudio.com/",  :
+  installation of package 'htmltools' had non-zero exit status
+4: In utils::install.packages("rmarkdown", repos = "https://cran.rstudio.com/",  :
+  installation of package 'xfun' had non-zero exit status
+5: In utils::install.packages("rmarkdown", repos = "https://cran.rstudio.com/",  :
+  installation of package 'sass' had non-zero exit status
+6: In utils::install.packages("rmarkdown", repos = "https://cran.rstudio.com/",  :
+  installation of package 'knitr' had non-zero exit status
+7: In utils::install.packages("rmarkdown", repos = "https://cran.rstudio.com/",  :
+  installation of package 'bslib' had non-zero exit status
+8: In utils::install.packages("rmarkdown", repos = "https://cran.rstudio.com/",  :
+  installation of package 'rmarkdown' had non-zero exit status
